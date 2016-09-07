@@ -8,9 +8,9 @@ The first step is to create a configuration file for a class. Each academic term
 
     $ cat class.yml
     ---
-    organization: cornell-cs4411
+    organization: myorganization
     prefix: fa15
-    source: 'git@github.com:cornell-cs4411/project-release'
+    source: 'git@github.com:myorganization/project-release'
     source-branch: 'master'
     teams:
       <unique team name>:
